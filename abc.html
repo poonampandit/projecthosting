@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+
+
+
+#test, #hello {
+padding: 5px;
+text-align: center;
+background-color: #e5eecc;
+border: solid 1px #c3c3c3;
+}
+#test {
+padding: 50px;
+display: none;
+}
+  </style>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-
+oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+</head>
+
+<script type="text/javascript" language="javascript">
+$(document).ready(function() 
+{
+// $("button").click(function()
+// {
+//   $("#abc").hide()
+// })
+
+// $(".abc1").click(function()
+// {
+//   $("#abc").show()
+// })
+
+
+
+$("#hello").click(function()
+ {
+  $("#test").toggle()
+ })
+
+
+});
+</script>
+
+
+  </script>
+<body>
+  <div id="hello">Click to slide down panel</div>
+<div id="test">Hello world!</div>
+</body>
+</html>
